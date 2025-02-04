@@ -1,0 +1,18 @@
+[project]
+name = "handtracking"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "Stephen", email = "stephenvdw.business@gmail.com" }]
+dependencies = [
+    "opencv-python>=4.11.0.86",
+    "mediapipe>=0.10.20",
+    "pycaw>=20240210",
+    "numpy>=1.26.4",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
